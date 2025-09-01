@@ -62,19 +62,10 @@
         ```bash
         cp .env.example .env
     - Update .env with your database credentials and mail settings:
-        ```env
-        DB_CONNECTION=mysql
-        DB_HOST=127.0.0.1
-        DB_PORT=3306
-        DB_DATABASE=campusspeak
-        DB_USERNAME=your_username
-        DB_PASSWORD=your_password
+        - DB_CONNECTION, DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD for your MySQL database.
+        - MAIL_MAILER, MAIL_HOST, MAIL_PORT, MAIL_USERNAME, MAIL_PASSWORD for your email service (e.g., SMTP provider).
 
-        MAIL_MAILER=smtp
-        MAIL_HOST=smtp.example.com
-        MAIL_PORT=587
-        MAIL_USERNAME=your_email
-        MAIL_PASSWORD=your_password
+
 
 4. **CGenerate Application Key**:
    ```bash
