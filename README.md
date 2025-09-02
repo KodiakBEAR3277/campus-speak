@@ -49,12 +49,12 @@
 ## Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-repo/campus-speak.git
+   git clone [https://github.com/your-repo/campus-speak.git](https://github.com/KodiakBEAR3277/campus-speak.git)
    cd campus-speak
 
 2. **Install Dependencies**:
    ```bash
-   git clone https://github.com/your-repo/campus-speak.git
+   git clone [https://github.com/your-repo/campus-speak.git](https://github.com/KodiakBEAR3277/campus-speak.git)
    cd campus-speak
 
 3. **Copy Environment**:
