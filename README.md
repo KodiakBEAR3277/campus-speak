@@ -54,8 +54,10 @@
 
 2. **Install Dependencies**:
    ```bash
-   git clone https://github.com/KodiakBEAR3277/campus-speak.git
-   cd campus-speak
+   composer install
+   npm install
+   ```
+        
 
 3. **Copy Environment**:
     - Copy .env.example to .env:
