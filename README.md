@@ -75,7 +75,7 @@
 
 5. **Run Migrations**:
    ```bash
-   php artisan migrate
+   php artisan migrate --seed
 
 6. **Compile Frontend Assets**:
    ```bash
