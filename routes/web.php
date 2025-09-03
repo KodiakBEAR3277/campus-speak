@@ -28,4 +28,11 @@ Route::group(['middleware' => 'auth', 'prefix' => '/'], function() {
     });
 });
 
+
+
+
+Route::get('/usermanagement', function () {
+    return view('usermanagement');
+});
+
 require_once __DIR__ . "/auth.php";
