@@ -33,6 +33,6 @@ Route::group(['middleware' => 'auth', 'prefix' => '/'], function() {
 
 Route::get('/usermanagement', function () {
     return view('usermanagement');
-});
+})->name('usermanagement');  // Add the route name
 
 require_once __DIR__ . "/auth.php";
