@@ -31,8 +31,6 @@ Route::group(['middleware' => 'auth', 'prefix' => '/'], function() {
 
 
 
-Route::get('/usermanagement', function () {
-    return view('usermanagement');
-})->name('usermanagement');  // Add the route name
+Route::get('/usermanagement', [App\Http\Controllers\UserController::class, 'index'])->name('usermanagement');
 
 require_once __DIR__ . "/auth.php";
