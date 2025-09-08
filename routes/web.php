@@ -13,11 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::group(['middleware' => 'auth', 'prefix' => '/'], function() {
+/*Route::group(['middleware' => 'auth', 'prefix' => '/'], function() {
     Route::get('dashboard', function() {
         return view('dashboard');
     })->name('dashboard');
@@ -27,12 +24,33 @@ Route::group(['middleware' => 'auth', 'prefix' => '/'], function() {
         })->name('accordion');
     });
 });
-
+*/
 
 
 
 Route::get('/usermanagement', function () {
     return view('usermanagement');
 });
+
+Route::get('/', function () {
+    return view('login');
+})->name('login');
+
+Route::get('/register', function () {
+    return view(('register'));
+})->name('register');
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
+
+Route::get('/complaint', function () {
+    return view('Complaint');
+})->name('complaint');
+
+Route::get('/mycomplaints', function () {
+    return view('mycomplaints');
+})->name('mycomplaints');
+
 
 require_once __DIR__ . "/auth.php";
