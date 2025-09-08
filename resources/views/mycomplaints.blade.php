@@ -24,37 +24,13 @@
             </div>
             <div class="card-body">
                 <div class="table-responsive datatable-minimal">
-                    <div id="table2_wrapper" class="dataTables_wrapper dt-bootstrap5 no-footer"><div class="row"><div class="col-3"><div class="dataTables_length" id="table2_length"><label><select name="table2_length" aria-controls="table2" class="form-select form-select-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> </label></div></div><div class="col-9"><div id="table2_filter" class="dataTables_filter"><label><input type="search" class="form-control form-control-sm" placeholder="Search.." aria-controls="table2"></label></div></div></div><div class="row dt-row"><div class="col-sm-12"><table class="table dataTable no-footer" id="table2" aria-describedby="table2_info">
+                    <div id="table2_wrapper" class="dataTables_wrapper dt-bootstrap5 no-footer"><div class="row"><div class="col-3"><div class="dataTables_length" id="table2_length"><label><select Complaint ID="table2_length" aria-controls="table2" class="form-select form-select-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> </label></div></div><div class="col-9"><div id="table2_filter" class="dataTables_filter"><label><input type="search" class="form-control form-control-sm" placeholder="Search.." aria-controls="table2"></label></div></div></div><div class="row dt-row"><div class="col-sm-12"><table class="table dataTable no-footer" id="table2" aria-describedby="table2_info">
                         <thead>
-                            <tr><th class="sorting sorting_asc" tabindex="0" aria-controls="table2" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 107.656px;">Name</th><th class="sorting" tabindex="0" aria-controls="table2" rowspan="1" colspan="1" aria-label="Email: activate to sort column ascending" style="width: 497.984px;">Email</th><th class="sorting" tabindex="0" aria-controls="table2" rowspan="1" colspan="1" aria-label="Phone: activate to sort column ascending" style="width: 180.359px;">Phone</th><th class="sorting" tabindex="0" aria-controls="table2" rowspan="1" colspan="1" aria-label="City: activate to sort column ascending" style="width: 193.469px;">City</th><th class="sorting" tabindex="0" aria-controls="table2" rowspan="1" colspan="1" aria-label="Status: activate to sort column ascending" style="width: 92.5312px;">Status</th></tr>
+                            <tr><th class="sorting sorting_asc" tabindex="0" aria-controls="table2" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Complaint ID: activate to sort column descending" style="width: 107.656px;">Complaint ID</th><th class="sorting" tabindex="0" aria-controls="table2" rowspan="1" colspan="1" aria-label="Email: activate to sort column ascending" style="width: 497.984px;">Email</th><th class="sorting" tabindex="0" aria-controls="table2" rowspan="1" colspan="1" aria-label="Phone: activate to sort column ascending" style="width: 180.359px;">Phone</th><th class="sorting" tabindex="0" aria-controls="table2" rowspan="1" colspan="1" aria-label="City: activate to sort column ascending" style="width: 193.469px;">City</th><th class="sorting" tabindex="0" aria-controls="table2" rowspan="1" colspan="1" aria-label="Status: activate to sort column ascending" style="width: 92.5312px;">Status</th></tr>
                         </thead>
                         <tbody>
                             
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
+                               
                         <tr class="odd">
                                 <td class="sorting_1">Aladdin</td>
                                 <td>sem.ut@pellentesqueafacilisis.ca</td>
