@@ -1,5 +1,6 @@
 @charset "UTF-8";
 :root {
+  
   --dt-row-selected: 13, 110, 253;
   --dt-row-selected-text: 255, 255, 255;
   --dt-row-selected-link: 9, 10, 11;
@@ -266,6 +267,7 @@ table.dataTable td,
 table.dataTable th {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
+  
 }
 table.dataTable td.dataTables_empty,
 table.dataTable th.dataTables_empty {
@@ -434,4 +436,8 @@ div.table-responsive > div.dataTables_wrapper > div.row > div[class^=col-]:last-
   --dt-row-hover: 255, 255, 255;
   --dt-row-stripe: 255, 255, 255;
   --dt-column-ordering: 255, 255, 255;
+}
+div.table-responsive>div.dataTables_wrapper>div.row {
+    margin: 0;
+    margin-top: -30px;
 }

@@ -1,133 +1,204 @@
-@extends('layouts.app')
+    @extends('layouts.app')
 
-@section('content')
-<div id="main">
-    <header class="mb-3">
-        <a href="#" class="burger-btn d-block d-xl-none">
-            <i class="bi bi-justify fs-3"></i>
-        </a>
-    </header>
+    @section('content')
+    <div id="main">
+        <header class="mb-3">
+            <a href="#" class="burger-btn d-block d-xl-none">
+                <i class="bi bi-justify fs-3"></i>
+            </a>
+        </header>
 
-    <div class="page-heading" style="display: flex; justify-content: space-between; align-items: center;">
-        <div>
-            <h3>My Complaints</h3>
-            <h6>Track the status of your submitted complaints</h6>
-        </div>
-    </div>
-    <div class="page-content">
-      <section class="section">
-        <div class="card">
-            <div class="card-header">
-                <h5 class="card-title">
-                    Minimal jQuery Datatable
-                </h5>
+        <div class="page-heading" style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+                <h3>My Complaints</h3>
+                <h6>Track the status of your submitted complaints</h6>
             </div>
-            <div class="card-body">
-                <div class="table-responsive datatable-minimal">
-                    <div id="table2_wrapper" class="dataTables_wrapper dt-bootstrap5 no-footer"><div class="row"><div class="col-3"><div class="dataTables_length" id="table2_length"><label><select Complaint ID="table2_length" aria-controls="table2" class="form-select form-select-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> </label></div></div><div class="col-9"><div id="table2_filter" class="dataTables_filter"><label><input type="search" class="form-control form-control-sm" placeholder="Search.." aria-controls="table2"></label></div></div></div><div class="row dt-row"><div class="col-sm-12"><table class="table dataTable no-footer" id="table2" aria-describedby="table2_info">
-                        <thead>
-                            <tr><th class="sorting sorting_asc" tabindex="0" aria-controls="table2" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Complaint ID: activate to sort column descending" style="width: 107.656px;">Complaint ID</th><th class="sorting" tabindex="0" aria-controls="table2" rowspan="1" colspan="1" aria-label="Email: activate to sort column ascending" style="width: 497.984px;">Email</th><th class="sorting" tabindex="0" aria-controls="table2" rowspan="1" colspan="1" aria-label="Phone: activate to sort column ascending" style="width: 180.359px;">Phone</th><th class="sorting" tabindex="0" aria-controls="table2" rowspan="1" colspan="1" aria-label="City: activate to sort column ascending" style="width: 193.469px;">City</th><th class="sorting" tabindex="0" aria-controls="table2" rowspan="1" colspan="1" aria-label="Status: activate to sort column ascending" style="width: 92.5312px;">Status</th></tr>
-                        </thead>
-                        <tbody>
-                            
-                               
-                        <tr class="odd">
-                                <td class="sorting_1">Aladdin</td>
-                                <td>sem.ut@pellentesqueafacilisis.ca</td>
-                                <td>0800 1111</td>
-                                <td>Bothey</td>
-                                <td>
-                                    <span class="badge bg-success">Active</span>
-                                </td>
-                            </tr><tr class="even">
-                                <td class="sorting_1">Berk</td>
-                                <td>fringilla.porttitor.vulputate@taciti.edu</td>
-                                <td>(0101) 043 2822</td>
-                                <td>Sanquhar</td>
-                                <td>
-                                    <span class="badge bg-success">Active</span>
-                                </td>
-                            </tr><tr class="odd">
-                                <td class="sorting_1">Bruno</td>
-                                <td>elit.Etiam.laoreet@luctuslobortisClass.edu</td>
-                                <td>07624 869434</td>
-                                <td>Rocca d"Arce</td>
-                                <td>
-                                    <span class="badge bg-success">Active</span>
-                                </td>
-                            </tr><tr class="even">
-                                <td class="sorting_1">Carter</td>
-                                <td>urna.justo.faucibus@orci.com</td>
-                                <td>07079 826350</td>
-                                <td>Biez</td>
-                                <td>
-                                    <span class="badge bg-success">Active</span>
-                                </td>
-                            </tr><tr class="odd">
-                                <td class="sorting_1">Channing</td>
-                                <td>tempor.bibendum.Donec@ornarelectusante.ca</td>
-                                <td>0845 46 49</td>
-                                <td>Warrnambool</td>
-                                <td>
-                                    <span class="badge bg-success">Active</span>
-                                </td>
-                            </tr><tr class="even">
-                                <td class="sorting_1">Cruz</td>
-                                <td>non@quisturpisvitae.ca</td>
-                                <td>07624 944915</td>
-                                <td>Shikarpur</td>
-                                <td>
-                                    <span class="badge bg-success">Active</span>
-                                </td>
-                            </tr><tr class="odd">
-                                <td class="sorting_1">Dale</td>
-                                <td>fringilla.euismod.enim@quam.ca</td>
-                                <td>0500 527693</td>
-                                <td>New Quay</td>
-                                <td>
-                                    <span class="badge bg-success">Active</span>
-                                </td>
-                            </tr><tr class="even">
-                                <td class="sorting_1">Darius</td>
-                                <td>velit@nec.com</td>
-                                <td>0309 690 7871</td>
-                                <td>Ways</td>
-                                <td>
-                                    <span class="badge bg-success">Active</span>
-                                </td>
-                            </tr><tr class="odd">
-                                <td class="sorting_1">Deacon</td>
-                                <td>Duis.a.mi@sociisnatoquepenatibus.com</td>
-                                <td>07740 599321</td>
-                                <td>Karapınar</td>
-                                <td>
-                                    <span class="badge bg-success">Active</span>
-                                </td>
-                            </tr><tr class="even">
-                                <td class="sorting_1">Emmanuel</td>
-                                <td>eget.lacus.Mauris@feugiatSednec.org</td>
-                                <td>(016977) 8208</td>
-                                <td>Saint-Remy-Geest</td>
-                                <td>
-                                    <span class="badge bg-success">Active</span>
-                                </td>
-                            </tr></tbody>
-                    </table></div></div><div class="row"><div class="col-4"><div class="dataTables_info" id="table2_info" role="status" aria-live="polite">Page 1 of 3</div></div><div class="col-8"><div class="dataTables_paginate paging_simple" id="table2_paginate"><ul class="pagination pagination-primary"><li class="paginate_button page-item previous disabled" id="table2_previous"><a aria-controls="table2" aria-disabled="true" role="link" data-dt-idx="previous" tabindex="0" class="page-link">Previous</a></li><li class="paginate_button page-item next" id="table2_next"><a href="#" aria-controls="table2" role="link" data-dt-idx="next" tabindex="0" class="page-link">Next</a></li></ul></div></div></div></div>
+        </div>
+        <section class="section">
+            <div class="card">
+                <div class="card-header">
+
                 </div>
+                <div class="card-body">
+                    <div class="table-responsive datatable-minimal">
+                        <div class="d-flex mb-3 gap-3">
+                            <!-- Search -->
+                            <div>
+                                <label for="searchInput" class="form-label">Search</label>
+                                <input type="text" id="searchInput" class="form-control" placeholder="Search complaints...">
+                            </div>
+
+                            <!-- Category Filter -->
+                            <div class="d-flex mb-3 gap-3">
+                                <div>
+                                    <label for="filterCategory" class="form-label">Category</label>
+                                    <select id="filterCategory" class="form-select">
+                                        <option value="">All</option>
+                                        <option value="Academic">Academic</option>
+                                        <option value="Facility">Facility</option>
+                                        <option value="Bullying">Bullying</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+
+                                <!-- Status Filter -->
+                                <div>
+                                    <label for="filterStatus" class="form-label">Status</label>
+                                    <select id="filterStatus" class="form-select">
+                                        <option value="">All</option>
+                                        <option value="Pending">Pending</option>
+                                        <option value="In Review">In Review</option>
+                                        <option value="Resolved">Resolved</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Complaints Table -->
+                        <table class="table table-bordered" id="table22">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Complaint ID</th>
+                                    <th>Category</th>
+                                    <th>Description</th>
+                                    <th>Date Filed</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Complaint 1 -->
+                                <tr>
+                                    <td>#1045</td>
+                                    <td>Bullying</td>
+                                    <td>Bullying incident in library</td>
+                                    <td>2025-09-20</td>
+                                    <td><span class="badge bg-danger">Pending</span></td>
+                                    <td>
+                                        <a class="btn btn-sm btn-primary" href="{{ route('complaints.show', 1045) }}">View Details</a>
+                                    </td>
+                                </tr>
+
+                                <!-- Complaint 2 -->
+                                <tr>
+                                    <td>#1046</td>
+                                    <td>Facility</td>
+                                    <td>Broken air conditioner in Room 304</td>
+                                    <td>2025-09-18</td>
+                                    <td><span class="badge bg-warning">In Review</span></td>
+                                    <td>
+                                        <a class="btn btn-sm btn-primary" href="{{ route('complaints.show', 1046) }}">View Details</a>
+                                    </td>
+                                </tr>
+
+                                <!-- Complaint 3 -->
+                                <tr>
+                                    <td>#1047</td>
+                                    <td>Academic</td>
+                                    <td>Unfair grading system in Math 101</td>
+                                    <td>2025-09-15</td>
+                                    <td><span class="badge bg-success">Resolved</span></td>
+                                    <td>
+                                        <a class="btn btn-sm btn-primary" href="{{ route('complaints.show', 1047) }}">View Details</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+
+                        <!-- Complaint Details Modal -->
+                        <div class="modal fade" id="complaintModal" tabindex="-1" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">
+                                            Complaint #<span id="modal-id"></span> – <span id="modal-title"></span>
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <div class="container-fluid">
+                                            <div class="row g-3">
+
+                                                <!-- Complaint Summary -->
+                                                <div class="col-12">
+                                                    <div class="border rounded p-3">
+                                                        <h6>Complaint Summary</h6>
+                                                        <p><strong>Category:</strong> <span id="modal-category"></span></p>
+                                                        <p><strong>Date Submitted:</strong> <span id="modal-date"></span></p>
+                                                        <p><strong>Status:</strong> <span id="modal-status"></span></p>
+                                                        <p><strong>Urgency Level:</strong> <span id="modal-urgency"></span></p>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Left Column -->
+                                                <div class="col-md-8">
+                                                    <!-- Complaint Content -->
+                                                    <div class="border rounded p-3 mb-3">
+                                                        <h6>Complaint Content</h6>
+                                                        <p id="modal-description"></p>
+                                                        <h6>Attachments</h6>
+                                                        <div class="d-flex gap-2">
+                                                            <div class="border p-4 bg-light">File 1</div>
+                                                            <div class="border p-4 bg-light">File 2</div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Admin Responses -->
+                                                    <div class="border rounded p-3">
+                                                        <h6>Admin Responses</h6>
+                                                        <div id="modal-responses"></div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Right Column -->
+                                                <div class="col-md-4">
+                                                    <!-- Status Timeline -->
+                                                    <div class="border rounded p-3 mb-3">
+                                                        <h6>Status Timeline</h6>
+                                                        <ul id="modal-timeline" class="list-unstyled"></ul>
+                                                    </div>
+
+                                                    <!-- Student Options -->
+                                                    <div class="border rounded p-3">
+                                                        <h6>Student Options</h6>
+                                                        <button class="btn btn-outline-primary w-100 mb-2">Add follow-up comment</button>
+                                                        <button class="btn btn-outline-success w-100 mb-2">Mark as Resolved</button>
+                                                        <button class="btn btn-dark w-100">Download Report</button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
             </div>
-        </div>
+    </div>
+    </div>
+    </div>
 
     </section>
     </div>
-</div>
-</div>
-</section>
+    </div>
+    </section>
 
-<section>
+    <section>
 
-</section>
-</div>
+    </section>
+    </div>
 
-</section>
-</div>
-@endsection
+    </section>
+    </div>
+    @endsection

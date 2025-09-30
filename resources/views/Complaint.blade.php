@@ -68,7 +68,7 @@
                                                                 <label for="DateTime">Date and Time</label>
                                                                 <div style="display: grid; grid-template-columns: 80% 20%; gap: 5px;">
                                                                     <div style="width: 80%;">
-                                                                        <input type="date" class="form-control mb-3 flatpickr-no-confi flatpickr-input" placeholder="Select date.." >
+                                                                        <input type="date" class="form-control mb-3 flatpickr-no-confi flatpickr-input" placeholder="Select date..">
                                                                     </div>
                                                                     <div style="">
                                                                         <input type="time" class="form-control mb-3 flatpickr-no-config flatpickr-input active" placeholder="Select time" style="margin-left: -50px">

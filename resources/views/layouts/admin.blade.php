@@ -4,19 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CampusSpeak</title>
     @include('layout.css')
-
 </head>
 
 <body>
 
+    @include('layout.admin_header')
     <main>
         @yield('content')
     </main>
-    @include('layout.js')
-    <script src="./assets/static/js/initTheme.js"></script>
+    @include('layout.footer')
+    @vite(['./resources/js/app.js'])
+   @include('layout.js')
 
 </body>
 
 </html>
+
